@@ -20,8 +20,8 @@ docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' <CON
 salida de ejemplo 172.18.0.2
 ```
 - Con la direccion ip , el nombre y la clave podras conectarte a la BD desde cualquier gestor 
-- Si usas Dbeaver
-en connection properties habilita allowPublicKeyRetrieval poniendole true
+### Si usas Dbeaver
+- En connection properties habilita allowPublicKeyRetrieval poniendole true
 ```
 allowPublicKeyRetrieval | true
 
